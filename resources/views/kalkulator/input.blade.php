@@ -4,7 +4,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <table>
+            <table style="background: linear-gradient(to right, rgb(36, 36, 36), rgb(155, 155, 155), rgb(36,36,36 ));">
                 <form action="{{route('hitung')}}" method="post">
                     @csrf
                     <tbody>
@@ -40,12 +40,15 @@
                                 <p>XII PPLG 1</p>
                             </td>
                         </tr>
+                        <tr>
+                            <td colspan="4"> <a href="{{route('home')}}" class="btn btn-danger">Kembali</a></td>
+                        </tr>
 
                     </tbody>
                 </form>
             </table>
 
-            <a href="{{route('home')}}" class="back">Kembali</a>
+
         </div>
     </div>
 </div>

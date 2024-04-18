@@ -3,7 +3,7 @@
 
 <form action="" method="post" name="form1">
     @csrf
-    <table border="0">
+    <table border="0" style="background: linear-gradient(135deg, rgb(36, 36, 36), rgb(155, 155, 155), rgb(36,36,36 ));">
         <tr>
             <td colspan="4" align="center" style="color: white; font-size:24px;"><h3>KALKULATOR</h3></td>
         </tr>
@@ -15,9 +15,10 @@
             <td><input type="button" value="X" onclick="form1.txt.value+='*'"></td>
             <td><input type="button" value=":" onclick="form1.txt.value+='/'"></td>
         </tr>
+
         <tr>
             <td><input type="button" value="9" onclick="form1.txt.value+='9'"></td>
-            <td><input type="button" value="8" onclick="form1.txt.value+='8'"></td>j
+            <td><input type="button" value="8" onclick="form1.txt.value+='8'"></td>
             <td><input type="button" value="7" onclick="form1.txt.value+='7'"></td>
             <td><input type="button" value="+" onclick="form1.txt.value+='+'"></td>
         </tr>

@@ -5,10 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Try Out UKK</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <style type="text/css">
-    body{
-        background: linear-gradient(to right, rgb(36, 36, 36), rgb(155, 155, 155), rgb(36,36,36 ));
-    }
 
     table{
         border: 1px solid black;
@@ -86,9 +84,16 @@
         border:none;
 
     }
+    .background {
+            background-image: url('/images/Iphone wallpaper.jpg');
+            /* Atur properti lainnya sesuai kebutuhan */
+            background-size: cover;
+
+            /* Atur properti lainnya sesuai kebutuhan */
+        }
     </style>
 </head>
-<body>
+<body class="background">
     <div class="container">
         @yield('kalkulator')
     </div>
